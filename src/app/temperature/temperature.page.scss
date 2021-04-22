@@ -1,0 +1,36 @@
+ion-toolbar {
+    --background: rgb(219, 219, 219);
+
+}
+ion-title {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(99, 99, 99);
+}
+form {
+    margin: 7%;
+    margin-top: 20%;
+    font-size: 20px; 
+    font-family: sans-serif;
+}
+
+#Selection {
+    border-style: solid;
+    border-color: rgb(168, 168, 168);
+    margin-bottom: 10%;
+}
+
+#Selection2 {
+    border-style: solid;
+    border-color: rgb(168, 168, 168);
+}
+
+#value {
+    border-style: solid;
+    border-color: rgb(168, 168, 168);
+}
+
+#convertedOutput {
+    border-style: solid;
+    border-color: rgb(168, 168, 168);
+}

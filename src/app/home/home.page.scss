@@ -1,0 +1,28 @@
+ion-toolbar {
+    --background: rgb(219, 219, 219);
+
+}
+
+*{
+    font-weight:300;
+}
+
+ion-content{
+    --background: #fafafa;
+}
+
+ion-text{
+    position:absolute;
+    top:25%;
+    left:4%;
+}
+
+h1{
+    font-size: 42px;
+}
+
+p{
+    font-size: 14px;
+    color: #696969;
+    left: 8%; 
+}

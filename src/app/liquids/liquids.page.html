@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Liquids</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content>
+  <form>
+ 
+    <!-- Select 1-->
+    <ion-label>From:</ion-label>
+    <ion-select name="converts" id="Selection" [(ngModel)]="eka">
+      <ion-select-option value="liters1">Liters</ion-select-option>
+      <ion-select-option value="deci1">Deciliters</ion-select-option>
+      <ion-select-option value="cups1">Cups</ion-select-option>
+      <ion-select-option value="pints1">Pints</ion-select-option>
+      <ion-select-option value="quarts1">Quarts</ion-select-option>
+      <ion-select-option value="gallons1">Gallons</ion-select-option>
+    </ion-select>
+ 
+    <!-- Select 2-->
+    <ion-label>To:</ion-label>
+    <ion-select name="converts2" id="Selection2" [(ngModel)]="toka">
+      <ion-select-option value="liters1">Liters</ion-select-option>
+      <ion-select-option value="deci1">Deciliters</ion-select-option>
+      <ion-select-option value="cups1">Cups</ion-select-option>
+      <ion-select-option value="pints1">Pints</ion-select-option>
+      <ion-select-option value="quarts1">Quarts</ion-select-option>
+      <ion-select-option value="gallons1">Gallons</ion-select-option>
+    </ion-select>
+ 
+ 
+    <!--INPUT-->
+    <br>
+    <br>
+    <br>Value
+    <ion-input type="number" name="value" [(ngModel)]="value" id="value" placeholder="Insert value" (ionChange)="Conversion()"> </ion-input>
+ 
+ 
+    <!--RESULT -->
+    <br>Conversion
+    <ion-input type="number" name="convertedOutput" [(ngModel)]="convertedOutput" id="convertedOutput" value="Disabled" ></ion-input>
+    <br>
+ 
+  </form>
+ 
+ 
+</ion-content>
